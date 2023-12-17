@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="C:\Users\acer\PDF'S\Responsive-Personal-Portfolio-Website-main\Responsive Personal Portfolio Website\assets\favicon.png" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>P</span>ortfolio</a>
+          </div>
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h1 class="name">ADITYA <span>DAS</span></h1>
+            <h3 class="profession">-Web Developer</h3>
+            <p class="short-desc">
+              I am a student now. trying to improve myself, beginer at full stack web
+              development , digital marketing and android devloper.
+            </p>
+            <a href="C:\Users\acer\PDF'S\Responsive-Personal-Portfolio-Website-main\Responsive Personal Portfolio Website\assets\my-cv.pdf" target="_blank" class="btn-cv" download
+              >Download CV</a
+            >
+          </div>
+          <div class="bottom-right">
+            <a href="https://www.facebook.com/profile.php?id=100063551888843&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/silent_gamer_sg?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section id="about">
+        <div class="about-left">
+          <img src="images/satoru.jpg" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About Me</h2>
+            <h3 class="title">Web Developer</h3>
+          </div>
+          <p class="desc">
+            
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>UI/UX Design</span><br />Designing Web/App interfaces
+              </li>
+              <li><span>Web Development</span><br />Web app development</li>
+              <li><span>Digital Marketing</span><br />share market</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span></span><br />
+                
+              </li>
+              <li>
+                <span></span><br />
+            
+              </li>
+              <li>
+                <span></span><br />
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2023 - Current</span><br />B-tech in computer science and engineering from GITA Bhubaneswar
+              </li>
+              <li>
+                <span>2020-2021</span><br />11 & 12 from Tetrahedron group of institution
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Service section -->
+      <section id="service">
+        <div class="section-title">
+          <h2 class="sub-title">My Services</h2>
+          <h3 class="title">A brief of Offerting Services</h3>
+        </div>
+        <div class="services">
+          <div>
+            <i class="fa-brands fa-battle-net"></i>
+            <h2>Branding</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Print Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Wordpress</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-pix"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>Cyber Security</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio section -->
+      <section id="portfolio">
+        <div class="section-title">
+          <h2 class="sub-title">My Portfolio</h2>
+          <h3 class="title">Awesome Works</h3>
+          <div class="project-list">
+            <div class="project">
+              <img src="C:\Users\acer\PDF'S\Responsive-Personal-Portfolio-Website-main\Responsive Personal Portfolio Website\assets\project2.jpg" alt="project1" />
+              <div class="layer">
+                <h3>tea</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  enim hic excepturi eos, dolorum debitis.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="C:\Users\acer\PDF'S\Responsive-Personal-Portfolio-Website-main\Responsive Personal Portfolio Website\assets\project1.jpg" alt="project2" />
+              <div class="layer">
+                <h3>painting</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  enim hic excepturi eos, dolorum debitis.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="C:\Users\acer\PDF'S\Responsive-Personal-Portfolio-Website-main\Responsive Personal Portfolio Website\assets\project3.jpg" alt="project3" />
+              <div class="layer">
+                <h3>Photography</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  enim hic excepturi eos, dolorum debitis.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+      <section id="testimonial">
+        <div class="section-title">
+          <h2 class="sub-title">Testimonial</h2>
+          <h3 class="title">People What Are Saying</h3>
+          <div class="testimonial-list">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src=""
+                    alt=""
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name"></h3>
+                  <h5 class="resignation"></h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src=""
+                    alt=""
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name"></h3>
+                  <h5 class="resignation"></h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src=""
+                    alt=""
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name"></h3>
+                  <h5 class="resignation"></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="section-title">
+          <h2 class="sub-title">Contact</h2>
+          <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+          <div class="contact-left">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="vl"></div>
+          <div class="contact-right">
+            <div class="col address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="info">
+                <h2 class="title">Address</h2>
+                <p>Madanpur, Bhubaneswar , Dist - Khordha</p>
+              </div>
+            </div>
+            <div class="col phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="info">
+                <h2 class="title">Phone</h2>
+                <p>+91 898 453 7636</p>
+              </div>
+            </div>
+            <div class="col email">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="info">
+                <h2 class="title">Email</h2>
+                <p>adi8984537@gmail.com</p>
+              </div>
+            </div>
+            <div class="col website">
+              <i class="fa-solid fa-globe"></i>
+              <div class="info">
+                <h2 class="title">Website</h2>
+                <p>www.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©️ Portfolio | Made with
+            <i class="fa-solid fa-heart"></i> by
+            <a href="#">Aditya</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
